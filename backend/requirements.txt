@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+pymysql
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+pdfplumber
+Pillow
+pytesseract
+transformers
+peft
+torch
+torchvision
+accelerate
