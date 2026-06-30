@@ -1,4 +1,5 @@
 import base64
+import os
 from fastapi import APIRouter
 from pydantic import BaseModel
 from groq import Groq
