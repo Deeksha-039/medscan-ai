@@ -1208,7 +1208,7 @@ async function doAnalyze() {
     });
 
     // Call backend proxy
-    const resp = await fetch('http://localhost:8000/analyze', {
+    const resp = await fetch('https://medscan-ai-5abm.onrender.com/analyze/', {
       method: 'POST',
       headers: {
         'Content-Type':  'application/json',
