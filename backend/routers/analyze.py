@@ -35,7 +35,7 @@ Blood Group: {body.patient_blood}
         if ext in ["jpg", "jpeg", "png"]:
             mime = "image/jpeg" if ext in ["jpg", "jpeg"] else "image/png"
             response = client.chat.completions.create(
-                model="meta-llama/llama-4-scout-17b-16e-instruct",
+                model="meta-llama/llama-4-scout-17b-16e-instruct-fp8",
                 messages=[
                     {
                         "role": "user",
